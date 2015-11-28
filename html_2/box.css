@@ -1,0 +1,16 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: papayawhip;
+
+  border: 5px solid fuchsia;
+  border-radius: 10px;
+
+  padding-right: 10px;
+  padding-left: 15px;
+  padding-top: 20px;
+
+  /*trouble*/
+  margin: 10px 20px 30px 40px;
+
+}
