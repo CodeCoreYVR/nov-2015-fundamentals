@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My First Sinatra Application</title>
+  </head>
+  <body>
+    <h1>Welcome to my Awesome Sinatra Application</h1>
+    <%# This an ERB comment %>
+
+    <%# this defines a variable in memory but doesn't display it on the page %>
+    <% number = rand(100) %>
+
+    <%# this displays the output of Ruby on the page %>
+    <%= number %>
+    <%= 5 * 25 %>
+
+    <h2>Your Lucky number is <%= @lucky_number %></h2>
+  </body>
+</html>
