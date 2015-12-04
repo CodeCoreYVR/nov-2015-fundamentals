@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Media Queries Exercise</title>
+    <style>
+      html, body {
+        margin: 0px;
+        padding: 0px;
+        background-color: red;
+      }
+      .container {
+        background-color: pink;
+        width: 30%;
+        height: 100px;
+        margin: 10px;
+        display: inline-block;
+      }
+
+      @media (max-width: 1080px) {
+        html, body {
+          background-color: orange;
+        }
+        .container {
+          background-color: pink;
+        }
+      }
+      @media (max-width: 960px) {
+        html, body {
+          background-color: yellow;
+        }
+        .container {
+          background-color: white;
+          width: 90%;
+          display: block;
+        }
+      }
+      @media (max-width: 640px) {
+        html, body {
+          background-color: green;
+        }
+      }
+      @media (max-width: 320px) {
+        html, body {
+          background-color: blue;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">Hello</div>
+    <div class="container">Hello</div>
+    <div class="container">Hello</div>
+  </body>
+</html>

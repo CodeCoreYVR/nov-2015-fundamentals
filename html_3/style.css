@@ -1,0 +1,195 @@
+h3 {
+  font-size: 35px;
+}
+
+h2 {
+  color: purple;
+}
+
+h1 {
+  color: blue;
+  font-weight: bold;
+}
+
+
+.float-playground {
+
+}
+
+.media-queries-playground .side-bar {
+  width: 30%;
+  background-color: red;
+  float: left;
+}
+
+.media-queries-playground .main-content {
+  width: 70%;
+  background-color: green;
+  float: left;
+}
+
+@media (max-width: 600px){ 
+  .media-queries-playground .side-bar {
+    width: 100%;
+  }
+  .media-queries-playground .main-content {
+    width: 100%;
+  }
+}
+
+.media-queries-exercise {
+  width: 100%;
+}
+
+.small-container {
+  float: left;
+  height: 100px;
+  width: 33%;
+}
+
+.margined-content {
+  border-radius: 10px;
+  border: 1px dotted;
+  height: 100px;
+  margin: 5px;
+  padding: ;
+}
+
+@media (max-width: 600px){ 
+  .small-container {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+
+
+.animated-div {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px dotted;
+  -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+  animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: blue;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background: red;}
+    to {background: blue;}
+}
+
+.float-playground  .red {
+  background-color: red;
+  width: 100%;
+  height: 200px;
+}
+.float-playground  .yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+.float-playground  .green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+
+.exercise1 {
+  background-color: grey;
+}
+
+.exercise1 .inside-box {
+  background-color: red;
+  margin-left: 50px;
+  border: 2px dotted cyan;
+  padding: 10px;
+  width: 25%;
+}
+
+.exercise2 {
+  width: 100%;
+  text-align: center;
+}
+.exercise2 .card {
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px dotted;
+  padding: 0;
+}
+
+.card .image img {
+  height: 150px;
+  border-radius: 10px;
+  float: left;
+}
+
+/*info*/
+
+#yellow {
+  color: yellow; 
+}
+
+.square {
+  list-style-type: square;
+}
+
+.purple {
+  color: purple;
+}
+
+td.purple {
+  text-decoration: underline;
+}
+
+table .abc {
+  color: brown;
+}
+
+nav a {
+  color: red;
+}
+
+nav a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.special-text {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: blue;
+}
+
+.special-text span {
+  color: red;
+}
+
+.box-model-test {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 6px solid red; 
+  padding-left: 15px;
+  margin: 20px 30px 40px 50px; /* TRBL */
+}
+
+

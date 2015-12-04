@@ -1,0 +1,122 @@
+body {
+  background: #F9F9F9;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.my-name-header {
+  color: #474747;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 5em;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  color: rgba(0,0,0,0.5);
+  font-style: italic;
+  line-height: 24px;
+}
+
+.left-side {
+  text-align: right;
+  border-right: 1px dashed #D3D3D3;
+}
+
+.photo {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.photo img {
+  width: 400px;
+  max-width: 100%;
+}
+
+.section-title {
+  margin-top: 30px;
+  color: #FF6830;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+.section-item {
+  margin-bottom: 10px;
+}
+
+.section-item-header {
+  font-size: 1em;
+  color: #5C5C5C;
+  line-height: 2em;
+  margin-bottom: 5px;
+}
+
+.section-item-details-subtle {
+  font-style: italic;
+  color: #8B8B8B;
+  margin-bottom: 5px;
+}
+
+.section-item-details {
+  color: #8B8B8B;
+  margin-bottom: 5px;
+}
+
+.about-me {
+  max-width: 400px;
+}
+
+.language {
+  padding: 3px 0;
+}
+
+.language-left-side {
+  padding-left: 0;
+}
+
+.language-right-side {
+  padding-left: 0;
+}
+
+.language-name {
+  color: #8B8B8B;
+  padding-left: 0;
+}
+
+.rating-good {
+  border: 1px solid #5CD4D0;
+  display: inline-block;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: #5CD4D0;
+  margin-right: 2px;
+}
+
+.language-rating {
+  padding-left: 0;
+}
+
+.rating-bad {
+  border: 1px solid #5CD4D0;
+  margin-right: 2px;
+  border-radius: 12px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.other-info-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px dashed #D3D3D3;
+}
+
+@media (max-width: 768px) {
+ .left-side {
+    text-align: left;
+ }
+}

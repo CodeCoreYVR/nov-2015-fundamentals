@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Queries</title>
+  <meta name="keywords" content="learning html">
+  <style>
+    .animated-div {
+      height: 100px;
+      width: 100px;
+      border-radius: 10px;
+      border: 1px dotted;
+      -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+      animation: myfirst 5s;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes myfirst {
+        from {background: red;}
+        to {background: blue;}
+    }
+
+    /* Standard syntax */
+    @keyframes myfirst {
+        from {background: red;}
+        to {background: blue;}
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-div"></div>
+</body>
+</html>
