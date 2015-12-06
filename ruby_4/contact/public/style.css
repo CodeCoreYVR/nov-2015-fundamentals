@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+label {
+  min-width: 100px;
+}
+
+input, textarea {
+  display: block;
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature Convertor</title>
+  </head>
+  <body>
+    <h1>Temperature Convertor</h1>
+
+    <form action="/convert" method="POST">
+      <%# by giving our inputs a `name` attribute we're able to capture the user
+          data on the server using the `params` object (Hash) that Sinatra gives us.
+          So if the user enters 25 in the text field our `params` Hash will look
+          like: {"temp_in_c" => "25"} (keys and values will be strings) %>
+      <input type="text" name="temp_in_c" value="<%= @temp_in_c %>">
+      <input type="submit" value="Submit">
+    </form>
+    <%# we use instance variables if we want to set something in our app.rb and
+        be able to access it in our `erb` files. In Ruby all instance variables
+        have a default value of nil which will display nothing in ERB without
+        giving an error so even if you don't set the instance variable it will
+        just be `nil` which will display nothing %>
+    <%= @temp_in_f %>
+
+  </body>
+</html>
