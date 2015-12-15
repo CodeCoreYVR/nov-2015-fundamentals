@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Example</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <style>
+    .navbar {
+      background-color: #F4511E;
+    }
+    .navbar-brand, .navbar li a {
+      color: #FFF !important;
+    }
+    .navbar li a:hover, .navbar li.active a {
+      color: #F4511E !important;
+      background-color: #FFF !important;
+    }
+    .jumbotron {
+      background-color: #F4511E;
+      color: #FFF;
+      padding: 100px 25px;
+      font-family: Arial, sans-serif;
+    }
+
+    .orange {
+      background-color: #FF7F00;
+    }
+    .blue {
+      background-color: #1ABDD4;
+    }
+    .green {
+      background-color: #D0FFA5;
+    }
+    .yellow {
+      background-color: #95860F;
+    }
+    .box {
+      color: white;
+      font-family: Arial, sans-serif;
+      min-height: 100px;
+      border-radius: 5px;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .glyphicon {
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header navbar-left">
+            <a class="navbar-brand" href="#" >Tufte Design Studios</a>
+          </div>
+          <div id="navbar" class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <!-- JUMBOTRON -->
+      <div class="jumbotron text-center">
+        <h1>Tufte Design Studios</h1>
+        <p>We specialize in Data Visualization</p>
+        <form class="form-inline">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <button type="button" class="btn btn-success btn-lg">Subscribe</button>
+        </form>
+      </div>
+<!-- GRID SYSTEM -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12 orange box">orange</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 blue box">blue</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 green box">green</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 yellow box">yellow</div>
+      </div>
+    </div>
+
+<!-- SERVICES GRID -->
+    <div class="container text-center">
+      <h2>SERVICES</h2>
+      <h4>What we offer</h4>
+      <br>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <span class="glyphicon glyphicon-off"></span>
+          <h4>POWER</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h4>LOVE</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h4>JOB DONE</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h4>GREEN</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h4>CERTIFIED</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h4>HARD WORK</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
